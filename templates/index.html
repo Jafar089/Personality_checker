@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Test</title>
+</head>
+<body>
+    <h1>Personality Test</h1>
+    <form method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div>
+            <p>
+                Are you an extrovert or an introvert?
+                <small>Extroverts are often talkative and enjoy social gatherings, while introverts prefer solitary activities and require less social interaction.</small>
+            </p>
+            <label>
+                <input type="radio" name="extrovert_introvert" value="e" required>
+                Extrovert
+            </label>
+            <label>
+                <input type="radio" name="extrovert_introvert" value="i" required>
+                Introvert
+            </label>
+        </div>
+
+        <div>
+            <p>
+                Are you sensing or intuitive?
+                <small>Sensing individuals are practical, prefer routine, and focus on details. Intuitive individuals think about possibilities, innovate, and focus on the big picture.</small>
+            </p>
+            <label>
+                <input type="radio" name="sensing_intuitive" value="s" required>
+                Sensing
+            </label>
+            <label>
+                <input type="radio" name="sensing_intuitive" value="n" required>
+                Intuitive
+            </label>
+        </div>
+
+        <div>
+            <p>
+                Are you thinking or feeling?
+                <small>Thinking individuals make decisions based on logic and reason, often detached from emotions. Feeling individuals prioritize emotions and the impact of decisions on others.</small>
+            </p>
+            <label>
+                <input type="radio" name="thinking_feeling" value="t" required>
+                Thinking
+            </label>
+            <label>
+                <input type="radio" name="thinking_feeling" value="f" required>
+                Feeling
+            </label>
+        </div>
+
+        <div>
+            <p>
+                Are you judging or perceiving?
+                <small>Judging individuals prefer order and structure in their lives. Perceiving individuals are more flexible and open to changes and spontaneity.</small>
+            </p>
+            <label>
+                <input type="radio" name="judging_perceiving" value="j" required>
+                Judging
+            </label>
+            <label>
+                <input type="radio" name="judging_perceiving" value="p" required>
+                Perceiving
+            </label>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
